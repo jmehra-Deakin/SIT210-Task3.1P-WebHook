@@ -7,8 +7,7 @@ HC_SR04 rangefinder = HC_SR04(triggerPin, echoPin);
 
 void setup()
 {
-  //  Serial.begin(9600);
-   
+    Serial.begin(9600);
     rangefinder.init();
 }
 
